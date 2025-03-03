@@ -64,7 +64,6 @@ aside {
   width: 100px;
 }
 .content {
-  outline: solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,7 +91,6 @@ aside {
   width: 150px;
 }
 .quote {
-  outline: solid;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -117,7 +115,6 @@ aside {
 }
 
 .cta {
-  outline: solid;
   display: flex;
   padding: 40px;
   justify-content: center;
@@ -162,7 +159,10 @@ aside {
 }
 
 .footer {
-  outline: solid;
   margin-top: auto;
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  padding: 10px;
 }
