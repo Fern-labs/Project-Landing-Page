@@ -65,10 +65,57 @@ aside {
 }
 .content {
   outline: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-head {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.box-container {
+  display: flex;
+  width: 800px;
+  gap: 50px;
+}
+.text-container {
+  display: flex;
+  height: 150px;
+  width: 800px;
+}
+.box {
+  outline: solid #3882f6 5px;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
 }
 .quote {
   outline: solid;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+.quote-container {
+  padding: 20px;
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+}
+.thor {
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-end;
+}
+
 .cta {
   outline: solid;
 }
